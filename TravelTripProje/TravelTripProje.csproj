@@ -168,6 +168,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-07 235848.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-07 235947.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-08 000033.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-08 000054.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-08 000131.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-08 000142.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-08 000216.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-08 000233.png" />
+    <Content Include="Image\Ekran görüntüsü 2025-10-08 000641.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
