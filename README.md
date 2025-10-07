@@ -40,6 +40,17 @@ Amaç; kullanıcıların blog yazılarıyla deneyimlerini paylaşabilmesi, yorum
 ---
 
 ### 📷 Ekran Görüntüleri
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-07%20235848.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-07%20235947.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-08%20000033.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-08%20000054.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-08%20000131.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-08%20000142.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-08%20000216.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-08%20000233.png)
+![image](https://github.com/bayraminkaya/TravelTripProje/blob/master/TravelTripProje/Image/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-08%20000641.png)
+
+---
 
 ## 👨‍💻 Geliştirici  
 **Bayram İnkaya**  
