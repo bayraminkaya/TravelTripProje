@@ -1,0 +1,55 @@
+﻿@using TravelTripProje.Models.Siniflar
+@model  List<Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center rounded-top-4">
+            <h3 class="mb-0">
+                <i class="bi bi-journal-text me-2"></i> Blog Listesi
+            </h3>
+            <a href="/Admin/YeniBlog/" class="btn btn-light text-primary fw-semibold">
+                <i class="bi bi-plus-circle me-1"></i> Yeni Blog
+            </a>
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width:60px;">#</th>
+                            <th>Başlık</th>
+                            <th style="width:120px;" class="text-center">Sil</th>
+                            <th style="width:140px;" class="text-center">Güncelle</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var x in Model)
+                        {
+                            <tr>
+                                <td><span class="badge bg-secondary">@x.ID</span></td>
+                                <td class="fw-semibold">@x.Baslik</td>
+                                <td class="text-center">
+                                    <a href="/Admin/BlogSil/@x.ID" class="btn btn-sm btn-danger shadow-sm">
+                                        <i class="bi bi-trash3"></i> Sil
+                                    </a>
+                                </td>
+                                <td class="text-center">
+                                    <a href="/Admin/BlogGetir/@x.ID" class="btn btn-sm btn-success shadow-sm">
+                                        <i class="bi bi-pencil-square"></i> Güncelle
+                                    </a>
+                                </td>
+                                
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

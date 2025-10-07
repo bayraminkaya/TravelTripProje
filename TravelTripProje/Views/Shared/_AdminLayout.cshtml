@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%; height:100vh;">
+        <h3 class="w3-bar-item"
+            style="background-color:#0d6efd;
+                   color:white;
+                   text-align:center;
+                   font-weight:600;
+                   padding:23px 0;
+                   margin:0;
+                   border-bottom:2px solid #0b5ed7;">
+            Menü
+        </h3>
+        <a href="/Admin/Index/" class="w3-bar-item w3-button">Bloglar</a>
+        <a href="/Admin/YorumListesi/" class="w3-bar-item w3-button">Yorumlar</a>
+        <a href="/Default/Index/" class="w3-bar-item w3-button">Siteye Git</a>
+        <a href="/GirisYap/LogOut/" class="w3-bar-item w3-button">Çıkış Yap</a>
+    </div>
+
+    <!-- Page Content -->
+    <div style="margin-left:15%">
+
+        <div class="w3-container"
+             style="background-color:#0d6efd;
+                    color:white;
+                    padding:25px 20px;
+                    font-size:20px;
+                    font-weight:600;
+                    letter-spacing:0.5px;
+                    margin:0;">
+            <i class="bi bi-gear me-2"></i>Admin Yönetim Paneli
+        </div>
+
+        <div class="w3-container" style="padding:20px;">
+            @RenderBody()
+        </div>
+
+    </div>
+
+</body>
+</html>

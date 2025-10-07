@@ -1,0 +1,27 @@
+﻿@*<div class="content-form">
+    <h3>Yorum Yapınız</h3>
+
+    <form method="post">
+        <input type="hidden" placeholder="ID" name="Blogid" value="@ViewBag.deger" required />
+        <input type="text" placeholder="Kullanıcı Adı" name="KullaniciAdi" required />
+        <input type="text" placeholder="Mail Adresi" name="MailAdresi" required />
+        <textarea placeholder="Yorum" name="Yorum"></textarea>
+        <input type="submit" value="Gönder" />
+    </form>
+</div>*@
+<div class="content-form">
+    <h3>Yorum Yapınız</h3>
+
+    @using (Html.BeginForm("YorumYap", "Blog", FormMethod.Post, new { @class = "content-form" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.Hidden("Blogid", (int)ViewBag.deger)
+
+
+        <input type="text" name="KullaniciAdi" placeholder="Kullanıcı Adı" required />
+        <input type="text" name="MailAdresi" placeholder="Mail Adresi" required />
+        <textarea name="Yorum" placeholder="Yorum" required></textarea>
+
+        <input type="submit" value="Gönder" />
+    }
+</div>

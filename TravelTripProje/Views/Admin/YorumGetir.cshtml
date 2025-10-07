@@ -1,0 +1,49 @@
+﻿@model TravelTripProje.Models.Siniflar.Yorumlar
+
+@{
+    ViewBag.Title = "YorumGetir";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container" style="max-width:800px; margin-top:40px;">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-primary text-white text-center rounded-top-4">
+            <h3 class="mb-0">
+                <i class="bi bi-chat-dots me-2"></i> Yorum Güncelleme
+            </h3>
+        </div>
+
+        <div class="card-body p-4">
+            @using (Html.BeginForm("YorumGuncelle", "Admin", FormMethod.Post))
+            {
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.ID, "Yorum ID", new { @class = "form-label fw-semibold" })
+                    @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "readonly", @style = "background-color:#f1f1f1;" })
+                </div>
+
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.KullaniciAdi, "Kullanıcı Adı", new { @class = "form-label fw-semibold" })
+                    @Html.TextBoxFor(x => x.KullaniciAdi, new { @class = "form-control", placeholder = "Yorumu yazan kişi" })
+                </div>
+
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Mail, "E-posta", new { @class = "form-label fw-semibold" })
+                    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control", placeholder = "E-posta adresi" })
+                </div>
+
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Yorum, "Yorum", new { @class = "form-label fw-semibold" })
+                    @Html.TextAreaFor(x => x.Yorum, 10, 1, new { @class = "form-control", placeholder = "Yorum içeriğini buraya yazın...", @style = "resize:none;" })
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success px-5 py-2 rounded-3 shadow-sm">
+                        <i class="bi bi-check-circle me-2"></i>Yorumu Güncelle
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
