@@ -6,6 +6,7 @@ Amaç; kullanıcıların blog yazılarıyla deneyimlerini paylaşabilmesi, yorum
 
 👉 Kullanıcı tarafında blog yazılarını okuyabilir, yorum yapabilir ve iletişim formu üzerinden mesaj gönderebilirsiniz.  
 👉 Admin panelinde blog ekleme, silme, güncelleme ve yorum yönetimi yapılabilmektedir.
+🔗 Aynı zamanda siteyi canlı olarak yayınladım ulaşmak için : http://traveltripworld.somee.com/
 
 ---
 
